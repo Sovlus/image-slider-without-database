@@ -13,6 +13,13 @@ const images = [
 
 export default function App() {
     const [current, setCurrent] = useState(0);
+
+    function next() {
+        setCurrent(current === images.length - 1 ? 0 : current +1);
+    }
+
+
+
 }
 
 
@@ -35,5 +42,3 @@ export default function App() {
 
 
 
-
-export default Page;
