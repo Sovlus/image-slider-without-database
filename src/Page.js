@@ -35,7 +35,7 @@ export default function App() {
             (image, index) =>
             current === index && (
                 <div key={image} className="slide">
-                    <img src={image} alt="zdjęcia" />
+                    <img src={image} alt="zdjęcia" className="zdj" />
                 </div>
                 
             )
