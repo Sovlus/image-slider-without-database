@@ -9,7 +9,9 @@ const images = [
     "https://images.pexels.com/photos/3074526/pexels-photo-3074526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "https://images.pexels.com/photos/2908852/pexels-photo-2908852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "https://images.pexels.com/photos/13884371/pexels-photo-13884371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/10620753/pexels-photo-10620753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    "https://images.pexels.com/photos/10620753/pexels-photo-10620753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://cdn.pixabay.com/photo/2023/05/08/15/14/dogwood-7978952_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830_960_720.jpg"
 ];
 
 export default function App() {
