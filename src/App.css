@@ -33,11 +33,11 @@ h2 {
 }
 
 .leftArr {
-  left: 0;
+  left: 10px;
 }
 
 .rightArr {
-  right: 0;
+  right: 10px;
 }
 
 .images {
@@ -49,8 +49,10 @@ h2 {
 }
 
 .zdj {
-  max-width: 100%;
-  height: auto;
+  max-height: 100%;
+  width: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
