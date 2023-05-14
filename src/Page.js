@@ -18,8 +18,26 @@ export default function App() {
         setCurrent(current === images.length - 1 ? 0 : current +1);
     }
 
+    function prev() {
+        setCurrent(current === 0 ? images.length - 1 : current - 1);
+    }
+
+    return (
+        <div className="wrapper">
+        <h2>Image Slider</h2>
+        <div className="slider">
+        
+
+        </div>
 
 
+
+
+        </div>
+
+
+
+    )
 }
 
 
