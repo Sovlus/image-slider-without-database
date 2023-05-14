@@ -8,6 +8,10 @@ background-color: #9b9b9b;
   align-items: center;
 }
 
+.slider {
+  position: relative;
+}
+
 h2 {
   color: white;
   letter-spacing: 2px;
