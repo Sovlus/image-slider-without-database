@@ -1,5 +1,5 @@
 * {
-background-color: #9b9b9b;
+  background-color: #9b9b9b;
 }
 
 .wrapper {
@@ -10,13 +10,11 @@ background-color: #9b9b9b;
 
 .slider {
   position: relative;
-  display: none;
 }
 
 h2 {
   color: white;
   letter-spacing: 2px;
-  align-items: center;
   text-align: center;
   text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.5);
   margin-top: 40px;
@@ -32,12 +30,14 @@ h2 {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   cursor: pointer;
+}
+
+.leftArr {
   left: 0;
 }
 
-img {
-  height: 600px;
-  width: 1000px;
+.rightArr {
+  right: 0;
 }
 
 .images {
@@ -48,16 +48,20 @@ img {
   position: relative;
 }
 
-.zdj _{
+.zdj {
   max-width: 100%;
   height: auto;
 }
 
 @media (max-width: 768px) {
   /* Adjustments for smaller screens */
-  .container {
+  .wrapper {
     flex-direction: column;
   }
+}
+
+.slide {
+  display: none;
 }
 
 .slide.active {
