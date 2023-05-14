@@ -26,6 +26,8 @@ export default function App() {
         <div className="wrapper">
         <h2>Image Slider</h2>
         <div className="slider">
+        <div className="leftArr" onClick={prev}> ←  </div>
+        <div className="rightArr" onClick={next}> →  </div>
         
 
         </div>
