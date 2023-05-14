@@ -31,6 +31,7 @@ h2 {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   cursor: pointer;
+  left: 0;
 }
 
 img {
@@ -43,6 +44,7 @@ img {
   justify-content: center;
   align-items: center;
   height: 80vh;
+  position: relative;
 }
 
 .zdj _{
