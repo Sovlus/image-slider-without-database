@@ -10,6 +10,7 @@ background-color: #9b9b9b;
 
 .slider {
   position: relative;
+  display: none;
 }
 
 h2 {
@@ -59,3 +60,6 @@ img {
   }
 }
 
+.slide.active {
+  display: block;
+}
