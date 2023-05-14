@@ -29,7 +29,14 @@ export default function App() {
         <div className="leftArr" onClick={prev}> ←  </div>
         <div className="rightArr" onClick={next}> →  </div>
         
-
+        {images.map(
+            (image, index) =>
+            current === index && (
+                <div key={image} className="slide">
+                    <img src={image} alt="zdjęcia" />
+                </div>
+            )
+        )}
         </div>
 
 
